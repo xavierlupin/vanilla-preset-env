@@ -24,6 +24,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.1",
     "eslint-plugin-promise": "^6.0.0",
+    "jest": "^28.1.0",
     "prettier": "2.6.2",
     "standard-version": "^9.5.0"
   },
@@ -33,7 +34,7 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "cz": "cz",
     "release": "standard-version --no-verify"
   }
