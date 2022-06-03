@@ -1,0 +1,21 @@
+{
+  "name": "vanilla-preset-env",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/xavierlupin/vanilla-preset-env#readme",
+  "bugs": {
+    "url": "https://github.com/xavierlupin/vanilla-preset-env/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavierlupin/vanilla-preset-env.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Xavier Lupin <xavierlupin0418@gmail.com> (https://github.com/xavierlupin)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
