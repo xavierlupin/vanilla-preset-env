@@ -15,7 +15,17 @@
   "license": "UNLICENSED",
   "author": "Xavier Lupin <xavierlupin0418@gmail.com> (https://github.com/xavierlupin)",
   "main": "index.js",
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cz": "cz"
   }
 }
