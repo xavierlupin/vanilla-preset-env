@@ -24,15 +24,20 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.1",
     "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.0",
     "jest": "^28.1.0",
+    "lint-staged": "^13.0.0",
     "prettier": "2.6.2",
-    "standard-version": "^9.5.0",
-    "husky": "^8.0.0"
+    "standard-version": "^9.5.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{html,css,js,md}": "prettier --write"
   },
   "scripts": {
     "prepare": "husky install",
