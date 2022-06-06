@@ -52,6 +52,7 @@
     "test": "jest",
     "cz": "cz",
     "build": "npm run js:build",
+    "server": "npx http-server ./docs -c-1",
     "release": "standard-version --no-verify"
   }
 }
