@@ -47,9 +47,11 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "js:dev": "webpack --config webpack.config.js --mode development --watch",
+    "js:build": "webpack --config webpack.config.js --mode production",
     "test": "jest",
     "cz": "cz",
-    "build": "webpack",
+    "build": "npm run js:build",
     "release": "standard-version --no-verify"
   }
 }
