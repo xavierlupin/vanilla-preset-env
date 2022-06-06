@@ -16,6 +16,10 @@
   "author": "Xavier Lupin <xavierlupin0418@gmail.com> (https://github.com/xavierlupin)",
   "main": "index.js",
   "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.16.0",
